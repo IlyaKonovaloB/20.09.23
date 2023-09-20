@@ -1,0 +1,74 @@
+№7
+return <div>
+		<p className="p1">asd</p>
+    <p className="p2" >asddsdads</p>
+	</div>;
+}
+№8
+return	<ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+    <li>9</li>
+    <li>10</li>
+		</ul>;
+№9
+ return 		<ul>
+			<li>text1</li>
+			<li>text2</li>
+			<li>text3</li>
+		</ul>;
+    
+}
+№10
+ return <div> <ul>
+		<li>text1</li>
+		<li>text2</li>
+		<li>text3</li>
+	</ul>
+	<ul>
+		<li>text1</li>
+		<li>text2</li>
+		<li>text3</li>
+	</ul>
+  </div>
+№11 
+return <input/>;
+№12
+return (
+    <div>
+      <input />
+      <input />
+      <input />
+    </div>
+  );
+№13
+	const str1 = 'text1';
+	const str2 = 'text2';
+	
+	return <div>
+		<p>{str1}</p>
+		<p>{str2}</p>
+	</div>;
+№14
+const name = 'user';
+    const age  = '30';
+    
+    return <div>
+      name: {name}
+      age:  {age}
+    </div>;
+№15
+const arr = [1, 2, 3, 4, 5];
+  return <ul>
+    <li>{arr[0]}</li>
+    <li>{arr[1]}</li>
+    <li>{arr[2]}</li>
+    <li>{arr[3]}</li>
+    <li>{arr[4]}</li>
+  </ul>
