@@ -72,3 +72,164 @@ const arr = [1, 2, 3, 4, 5];
     <li>{arr[3]}</li>
     <li>{arr[4]}</li>
   </ul>
+№16
+function App() {
+	const obj = {name: 'john', surname: 'smit'};
+  return  <div><p>
+	name:    <span>{obj.name}</span>,
+  <br />
+	surname: <span>{obj.surname}</span>,
+</p></div>
+}
+№17
+function App() {
+	const attr = 'block';
+	
+	return <div id={attr}>
+		text
+	</div>;
+}
+№19
+function App() {
+	const li1 = <li>text1</li>;
+	const li2 = <li>text2</li>;
+	const li3 = <li>text3</li>;
+
+	return <ul>
+    {li1}
+    {li2}
+    {li3}
+  </ul>
+}
+№20
+function App() {
+  const items = (<>
+    <li>text1</li>
+    <li>text2</li>
+    <li>text3</li>
+  </>
+  );
+
+  return <>
+    <ul>
+      {items}
+    </ul>
+  </>
+}
+№22
+function App() {
+  const items = (<>
+    <li>text1</li>
+    <li>text2</li>
+    <li>text3</li>
+  </>
+  );
+
+  return <>
+    <div>
+      <input/>
+      <br />
+      <input/>
+      <br />
+      <input/>
+    </div>
+  </>
+}
+№23
+function App() {
+  const items = (<>
+    <li>text1</li>
+    <li>text2</li>
+    <li>text3</li>
+  </>
+  );
+
+  return <>
+    <div>№1:</div>
+    <div>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <div>№2:</div>
+    <div>
+      <table>
+        <tr>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+      </table>
+    </div>
+  </>
+}
+№24
+function App() {
+  const num1 = 3;
+  const num2 = 2;
+
+  const name = 'john';
+  const surname = 'smit';
+
+  const num = 4;
+
+  return <>
+    <div >№1:</div>
+    result: {num1 ** num2}
+    <div>№2:</div>
+    result: {name + ' ' + surname}
+    <div>№3:</div>
+    result: {Math.sqrt(num)}
+  </>
+}
+№26
+function App() {
+  let age;
+  const isAdult = false;
+  if (isAdult) {
+		age = <p>more 18</p>;
+	}
+  else {
+		age = <p>not more 18</p>;
+  }
+  return <>
+    {age}
+  </>
+}
+№27
+function App() {
+  let admin;
+  const isAdmin = true;
+  if (isAdmin) {
+		admin = <div><p>yes</p></div>;
+	}
+  return <>
+    {admin}
+  </>
+}
+№28
+function App() {
+  const age = 19;
+  return <>
+    {age > 18 ? 'more 18' : 'less 18'}
+  </>
+}
